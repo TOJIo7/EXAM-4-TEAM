@@ -1,12 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./src/output.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./src/output.css">
 </head>
 <body>
-    
+  <header class="w-full border-b border-gray-200">
+    <div class="max-w-[1400px] mx-auto px-4">
+      <div class="flex items-center justify-between py-3">
+        <div class="flex items-center gap-3">
+          <div class="text-2xl font-bold text-teal-600"><img src="./logo (2).svg" alt=""></div>
+        </div>
+        <div class="hidden lg:flex items-center gap-8 text-sm text-gray-700">
+          <div>
+            <div class="font-semibold text-black">8 (495) 926-06-03</div>
+            <div class="text-gray-500 text-xs">WhatsApp</div>
+          </div>
+          <div>
+            <div class="font-semibold text-black">info@gmcdent.ru</div>
+            <div class="text-gray-500 text-xs">Задать вопрос</div>
+          </div>
+          <div>
+            <div class="font-semibold text-black">г. Мытищи,</div>
+            <div class="text-gray-500 text-xs">ул. Рождественская, д.7</div>
+          </div>
+          <div>
+            <div class="font-semibold text-black">Ежедневно</div>
+            <div class="text-gray-500 text-xs">с 9:00 до 21:00</div>
+          </div>
+        </div>
+        <div class="hidden lg:flex items-center gap-3">
+          <button class="bg-teal-600 text-white px-5 py-2 text-sm rounded">
+            <img src="./zoom-search.png" alt="">
+          </button>
+          <button class="bg-gray-100 px-4 py-2 text-sm rounded"> Личный кабинет </button>
+        </div>
+      </div>
+      <div class="hidden lg:flex items-center justify-between py-3 text-sm font-bold">
+        <nav class="flex gap-6">
+          <a href="#">Направления</a>
+          <a href="#">Услуги</a>
+          <a href="#">Врачи</a>
+          <a href="#">Отзывы</a>
+          <a href="#">Акции</a>
+          <a href="#">О центре</a>
+          <a href="#">Детство</a>
+          <a href="#">PAGE 2</a>
+        </nav>
+        <div class="icon"><img class=" block lg:hidden " src="./burger.png" alt=""></div>
+        <div class=" flex gap-2 "> <img class="block" src="./icon (4).png" alt=""> Версия для слабовидящих</div>
+        <button class="bg-sky-700 text-white px-4 py-2 text-sm rounded"> Запись на приём</button>
+      </div>
+    </div>
+    <section class="bg-gradient-to-r from-cyan-600 to-teal-500 text-white">
+      <div class="max-w-7xl mx-auto px-6 py-12 flex flex-col md:flex-row items-center justify-between">
+        <div class="md:w-1/2">
+          <h1 class="text-3xl md:text-5xl font-semibold leading-tight mb-6"> Позаботьтесь<br>о своём здоровье</h1>
+          <p class="text-sm md:text-base opacity-90 mb-6 max-w-md"> Осуществляем комплексное медицинское обслуживание
+            населения: консультации и амбулаторное лечение у специалистов всех направлений, медицинские обследования и
+            диагностические процедуры. </p>
+          <button class="bg-teal-400 text-white px-6 py-3 rounded-md"> Записаться</button>
+        </div>
+        <div class="md:w-1/2 mt-10 md:mt-0 flex justify-center md:justify-end">
+          <img src="./image (16).png">
+        </div>
+      </div>
+    </section>
+    <section class="max-w-7xl mx-auto px-6 -mt-20 pb-16">
+      <div class="flex flex-col md:flex-row gap-6">
+        <div class="bg-gray-200 rounded-lg p-6 flex-1">
+          <h3 class="text-lg font-semibold mb-4">Направления</h3>
+          <hr class="mb-[10px] border-gray-400">
+          <ul class="space-y-2 text-sm mb-6">
+            <li>Акушерство</li>
+            <li>Косметология</li>
+            <li>Хирургия</li>
+            <li>Мануальная терапия</li>
+            <li>Психотерапия</li>
+          </ul>
+          <button class="bg-blue-900 text-white w-full py-2 rounded-md"> Все услуги </button>
+        </div>
+        <div class="bg-gray-200 rounded-lg p-6 flex-1">
+          <h3 class="text-lg font-semibold mb-4">Диагностика</h3>
+          <hr class="mb-[10px] border-gray-400">
+          <ul class="space-y-2 text-sm mb-6">
+            <li>МРТ</li>
+            <li>КТ</li>
+            <li>УЗИ</li>
+            <li>Рентген</li>
+            <li>Гастроскопия</li>
+          </ul>
+          <button class="bg-blue-900 text-white w-full py-2 rounded-md"> Вся диагностика </button>
+        </div>
+        <div class="bg-gray-200 rounded-lg p-6 flex-1">
+          <h3 class="text-lg font-semibold mb-4">Врачи</h3>
+          <hr class="mb-[10px] border-gray-400">
+          <ul class="space-y-2 text-sm mb-6">
+            <li>Стоматолог</li>
+            <li>Эндокринолог</li>
+            <li>Хирург</li>
+            <li>Терапевт</li>
+            <li>Невролог</li>
+          </ul>
+          <button class="bg-blue-900 text-white w-full py-2 rounded-md"> Все врачи </button>
+        </div>
+        <div class="bg-gray-200 rounded-lg p-6 flex-1">
+          <h3 class="text-lg font-semibold mb-4">Детство</h3>
+          <hr class="mb-[10px] border-gray-400">
+          <ul class="space-y-2 text-sm mb-6">
+            <li>Педиатр</li>
+            <li>Стоматолог</li>
+            <li>Дерматолог</li>
+            <li>Офтальмолог</li>
+            <li>Логопед</li>
+          </ul>
+          <button class="bg-blue-900 text-white w-full py-2 rounded-md"> Все врачи</button>
+        </div>
+      </div>
+    </section>
+  </header>
+  
 </body>
+
 </html>
